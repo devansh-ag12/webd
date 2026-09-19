@@ -1,0 +1,43 @@
+/* h1{
+    font-style: italic;
+}
+b{
+    color: lightgreen;
+}
+a:hover{
+    color:brown;
+}
+a:active{
+    color:forestgreen;
+}
+ol{
+    list-style: lower-roman;
+}
+dl{
+    list-style: lower-greek;
+} */
+
+.hey {
+    text-align: center;
+    text-decoration: underline wavy blue;
+    text-transform: capitalize;
+    font-family: "Monoton", Verdana, Geneva, Tahoma, sans-serifm;
+    font-size: 2rem;
+    /* font-weight: 900; */
+    font-style: italic;
+}
+
+.division {
+    background-color: blueviolet;
+    margin: 20px;
+    height: 300px;
+    width: 500px;
+    padding: 20px;
+    border:  12px solid red;
+    border-radius: 12px;
+    box-sizing: content-box;
+    display: inline-block;
+}
+#division1{
+    background-color: aqua;
+}
