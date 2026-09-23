@@ -1,34 +1,39 @@
 .hey {
-    text-align: center;
-    text-decoration: underline wavy blue;
-    text-transform: capitalize;
-    font-family: "Monoton", Verdana, Geneva, Tahoma, sans-serifm;
-    font-size: 2rem;
-    /* font-weight: 900; */
-    font-style: italic;
+  text-align: center;
+  text-decoration: underline wavy blue;
+  text-transform: capitalize;
+  font-family: "Monoton", Verdana, Geneva, Tahoma, sans-serifm;
+  font-size: 2rem;
+  /* font-weight: 900; */
+  font-style: italic;
 }
 
 .division {
-    background-color: blueviolet;
-    margin: 20px;
-    height: 300px;
-    width: 90%;
-    padding: 20px;
-    border:  12px solid red;
-    border-radius: 12px;
-    box-sizing: content-box;
-    display: inline-block;
+  background-color: blueviolet;
+  margin: 20px;
+  height: 300px;
+  width: 90%;
+  padding: 20px;
+  border: 12px solid red;
+  border-radius: 12px;
+  box-sizing: content-box;
+  display: inline-block;
 }
-#division1{
-    background-color: aqua;
-    /* position: static; */
-
+#division1 {
+  background-color: aqua;
+  /* position: static; */
+  position: sticky;
+  top: 0%;
 }
-.divC{
-    display: inline-block;
-    margin: 2rem;
-    border: 0.2rem solid black;
-    padding: 2rem;
-    background-color: brown;
-    position: relative;
+.divC {
+  display: inline-block;
+  margin: 2rem;
+  border: 0.2rem solid black;
+  padding: 2rem;
+  background-color: brown;
+  /* position: relative;
+    bottom: 80px; */
+}
+#ab {
+  /* right: 90px; */
 }
