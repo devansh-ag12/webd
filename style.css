@@ -12,7 +12,7 @@
     background-color: blueviolet;
     margin: 20px;
     height: 300px;
-    width: 500px;
+    width: 90%;
     padding: 20px;
     border:  12px solid red;
     border-radius: 12px;
@@ -21,4 +21,14 @@
 }
 #division1{
     background-color: aqua;
+    /* position: static; */
+
+}
+.divC{
+    display: inline-block;
+    margin: 2rem;
+    border: 0.2rem solid black;
+    padding: 2rem;
+    background-color: brown;
+    position: relative;
 }
